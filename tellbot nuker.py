@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, CallbackContext
 import asyncio
 
-TOKEN = '7734088469:AAEbI7qCEQwP8rn9GopS40KE9b80qGDELEQ'  # Replace with your bot token
+TOKEN = 'YOUR_TOKEN_BOT'  # Replace with your bot token
 
 async def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
